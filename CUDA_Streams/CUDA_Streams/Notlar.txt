@@ -1,0 +1,1 @@
+Kod1 sayfa 3'teki altı çizili kelime tıklandığında, Kod2 sayfa 4'teki altı çizili kelime tıklandığında yeni sayfada gösterilebilir.
