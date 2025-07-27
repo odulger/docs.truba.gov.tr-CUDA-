@@ -9,7 +9,7 @@ __global__ void vector_addition(int *A,int *B,int *C,int size)//CUDA kernel
 
 int main()
 {
-	int size = 10000002;//Dizi büyüklüğü (3'e tam bölünmeli)
+	int size = 1000002;//Dizi büyüklüğü (3'e tam bölünmeli)
 	int ThreadPerBlock = 1024;//Blok büyüklüğü (Donanımın izin verdiği en yüksek değer)
 	int BlockPerGrid = (size-1)/ThreadPerBlock+1;//Blok sayısı
  
