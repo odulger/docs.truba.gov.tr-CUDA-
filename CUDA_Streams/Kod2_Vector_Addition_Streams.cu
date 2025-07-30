@@ -75,7 +75,7 @@ int main()
 	cudaEventRecord(stop);//Süre durduruldu
 	cudaEventSynchronize(stop);//Event işlemleri bitene kadar program beklemekte
 	cudaEventElapsedTime(&totaltime, start, stop);//Geçen süre hesaplanıyor
-	printf("Toplam Süre = %f ms\n",totaltime);
+	printf("Toplam Süre = %f saniye\n",totaltime);
 	printf("C[size-1] = %d\n",C_Host[size-1]);
 
 	cudaFreeHost(A_Host);//Dizi CPU belleğinden siliniyor
