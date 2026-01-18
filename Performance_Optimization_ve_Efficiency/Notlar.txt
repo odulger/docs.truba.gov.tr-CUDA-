@@ -1,0 +1,2 @@
+Kod1 sayfa 2 ve 6'daki altı çizili ilk kelime tıklandığında, RNG_functions.cuh sayfa 2 ve 6'daki altı çizili ikinci kelime tıklandığında,
+Kod2 sayfa 9'daki altı çizili kelime tıklandığında, Kod3 sayfa 11'deki altı çizili kelime tıklandığında yeni sayfada gösterilebilir.
